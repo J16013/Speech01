@@ -16,7 +16,7 @@ public class Speech01_main {
 		// TODO 自動生成されたメソッド・スタブ
 
 		TextToSpeech synthesizer = new TextToSpeech();
-		synthesizer.setUsernameAndPassword("7073198b-9e4e-4258-a500-2463dc3a6fe6", "4MSt0iU8YzeX");
+		synthesizer.setUsernameAndPassword("J16013", "J16013");
 		String translation = "今日は良い天気ですね。";
 		SynthesizeOptions synthesizeOptions = new SynthesizeOptions.Builder()
 			       .text(translation)
